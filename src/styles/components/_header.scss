@@ -1,0 +1,53 @@
+.common-header {
+    width: 100%;
+    background-color: $color-primary;
+    color: $color-light;
+
+    @media #{$min-width-desktop} {
+        height: 84px;
+    }
+
+    .inner-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        max-width: $content-max-width;
+        margin: auto;
+        padding: 24px 16px;
+
+        &.center-logo {
+            justify-content: center;
+        }
+
+        @media #{$min-width-tablet} {
+            flex-direction: row;
+        }
+
+        @media #{$min-width-desktop} {
+            padding: 16px 32px;
+        }
+
+        .header-actions-container {
+            display: flex;
+            gap: 24px;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            
+            @media #{$min-width-tablet} {
+                justify-content: flex-end;
+            }
+        }
+    }
+
+    .client-logo {
+        background-image: url($default-logo-url);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 50px;
+    }
+}

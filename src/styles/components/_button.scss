@@ -1,0 +1,95 @@
+.common-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    min-width: 64px;
+    max-width: 280px;
+    height: 42px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    background-color: $color-primary;
+    color: $color-primary-contrast-text;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $color-primary-lighten;
+        color: $color-primary-contrast-text;
+    }
+
+    &:disabled {
+        pointer-events: none;
+        background-color: $color-neutral-3;
+        color: $color-neutral-1;
+        border: none;
+    }
+
+    &.secondary {
+        background-color: $color-secondary;
+        color: $color-secondary-contrast-text;
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: $color-secondary-lighten;
+            color: $color-secondary-contrast-text;
+        }
+    }
+
+    &.outlined {
+        background-color: transparent;
+        color: $color-primary;
+        border: 2px solid $color-primary;
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: $color-neutral-4;
+            color: $color-primary;
+        }
+    }
+
+    &.link {
+        width: auto;
+        border: none;
+        text-decoration: underline;
+        font-weight: 500;
+        padding: 0;
+        background-color: transparent;
+        color: $color-primary;
+
+        &:hover,
+        &:focus,
+        &:active {    
+            color: $color-primary-darken;        
+            font-weight: 600;
+        }
+    }
+    
+    &.back-button {
+        background-color: transparent;
+        color: $color-primary;
+        text-decoration: none;
+
+        &:hover,
+        &:focus,
+        &:active {    
+            color: $color-primary-darken;        
+            font-weight: 600;
+        }
+    }
+    
+    @media #{$min-width-tablet} {
+        max-width: 240px;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,49 @@
+:root {
+    font-family: $main-font, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: $color-neutral-5;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+#root {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    color: $color-neutral-1;
+}
+
+.layout-main {
+    max-width: $content-max-width;
+    margin: 0 auto;
+    min-height: calc(100vh - 100px);
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: $secondary-font;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}

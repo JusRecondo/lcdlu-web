@@ -1,0 +1,25 @@
+#landing-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+
+.user-action-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    height: 50vh;
+    
+    @media #{$min-width-desktop} {
+        gap: 32px;
+    }
+
+    .common-button {
+        height: 52px;
+        font-size: 18px;
+    }
+}

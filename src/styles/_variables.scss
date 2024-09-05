@@ -1,0 +1,52 @@
+/* FONTS */
+
+$main-font: "Raleway", sans-serif;
+$secondary-font: "Poppins", sans-serif;
+
+/* BREAKPOINTS */
+$min-width-tablet: "(min-width: 768px)";
+$min-width-desktop:"(min-width: 1024px)";
+$min-width-desktop-lg:"(min-width: 1500px)";
+
+/* COLORS */
+
+//Neutrals
+$color-dark: #060606; 
+$color-light: #FFFFFF; 
+$color-neutral-1: #3C3C3B; // Default text-color, A11y OK with color-light & neutral-3 to neutral-5 
+$color-neutral-2: #989898; 
+$color-neutral-3: #CFCFCF; 
+$color-neutral-4: #E9E9E9; 
+$color-neutral-5: #F4F5F5; // ex "bg-light", default background color for containers
+$color-neutral-5-translucid: rgba(244, 245, 245, 0.95); 
+$color-neutral-1-translucid: rgba(60, 60, 59, 0.9);
+
+//Brand colors
+$color-primary: #2431D3;
+$color-primary-contrast-text: $color-light; //A11y OK
+$color-primary-lighten: lighten($color-primary, 10%); // #4A55E0 use for hover
+$color-primary-darken: darken($color-primary, 10%); // #1D27A7
+
+$color-secondary: #D4DE35;
+$color-secondary-contrast-text: $color-neutral-1; //A11y OK
+$color-secondary-lighten: lighten($color-secondary, 10%); // #DDE561 use for hover
+
+$color-tertiary: #FE6205;
+$color-tertiary-contrast-text: $color-neutral-1; //A11y OK
+$color-tertiary-lighten: lighten($color-tertiary, 10%); // #FE8238 use for hover
+$color-tertiary-darken: darken($color-tertiary, 15%); // #B64401 A11y OK with $color-light
+
+$color-complementary: #00A4B4;
+$color-complementary-contrast-text: $color-neutral-1; //A11y OK
+$color-complementary-darken: darken($color-complementary, 10%); // #007681 A11y OK with $color-light
+
+//Utility
+$color-error: #BF1722; //A11y OK with color-light & neutral-5 
+$color-success: #008000; //A11y OK with color-light & neutral-5 
+$color-warning: #F9E143; //A11y OK with $color-neutral-1
+
+/* Other variables */
+
+$content-max-width: 1240px;
+$card-border-radius: 4px;
+$default-logo-url: '/img/default_logo.png';
