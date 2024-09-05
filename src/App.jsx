@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 //Pages
+import Layout from './components/Layout';
 import Home from './pages/Home';
 import Bio from './pages/Bio';
 import Links from './pages/Links';
 import Music from './pages/Music';
+import Videos from './pages/Videos';
 import NotFound404 from './pages/NotFound404';
-import Layout from './components/Layout';
 
 function App() {
     const [loading, setLoading] = useState(false);
@@ -36,6 +37,10 @@ function App() {
                         <Route
                             path="/music"
                             element={<Music />}
+                        />
+                        <Route
+                            path="/videos"
+                            element={<Videos />}
                         />
                         <Route
                             path="*"
