@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import Header from './Header';
 import MetaTags from './MetaTags';
+import Footer from './Footer';
 
 const Layout = () => {
     return (
@@ -10,6 +11,7 @@ const Layout = () => {
             <main className="layout-main">
                 <Outlet />
             </main>
+            <Footer />
         </>
     );
 };

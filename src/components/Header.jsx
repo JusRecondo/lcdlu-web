@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 const Header = () => {
     return (
         <header className="common-header">
@@ -7,8 +8,9 @@ const Header = () => {
                     to="/"
                     aria-label="Ir al inicio"
                 >
-                    LOGO
+                    <h1>La cara de los últimos</h1>
                 </Link>
+                <Navbar />
             </div>
         </header>
     );
