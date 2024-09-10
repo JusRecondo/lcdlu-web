@@ -1,8 +1,11 @@
+import CommonContentSection from '../components/common/CommonContentSection';
+
 const Links = () => {
     return (
-        <>
-            <h1>Links</h1>
-        </>
+        <CommonContentSection title="Links">
+            <p>lksadlaksdjl</p>
+            <p>asdasdsad</p>
+        </CommonContentSection>
     );
 };
 

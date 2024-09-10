@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 //Pages
 import Layout from './components/Layout';
-import Home from './pages/Home';
+import Home from './pages/home/Home';
 import Bio from './pages/Bio';
 import Links from './pages/Links';
 import Music from './pages/Music';
@@ -31,16 +31,16 @@ function App() {
                             element={<Bio />}
                         />
                         <Route
-                            path="/links"
-                            element={<Links />}
-                        />
-                        <Route
-                            path="/music"
+                            path="/musica"
                             element={<Music />}
                         />
                         <Route
                             path="/videos"
                             element={<Videos />}
+                        />
+                        <Route
+                            path="/links"
+                            element={<Links />}
                         />
                         <Route
                             path="*"

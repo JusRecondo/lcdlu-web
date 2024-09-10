@@ -1,8 +1,11 @@
+import CommonContentSection from '../components/common/CommonContentSection';
+
 const Videos = () => {
     return (
-        <>
-            <h1>Videos</h1>
-        </>
+        <CommonContentSection title="Videos">
+            <p>lksadlaksdjl</p>
+            <p>asdasdsad</p>
+        </CommonContentSection>
     );
 };
 

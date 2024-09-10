@@ -1,8 +1,11 @@
+import CommonContentSection from '../components/common/CommonContentSection';
+
 const Music = () => {
     return (
-        <>
-            <h1>Music</h1>
-        </>
+        <CommonContentSection title="Musica">
+            <p>lksadlaksdjl</p>
+            <p>asdasdsad</p>
+        </CommonContentSection>
     );
 };
 
