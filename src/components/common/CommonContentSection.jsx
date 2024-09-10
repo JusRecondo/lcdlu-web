@@ -24,7 +24,7 @@ const CommonContentSection = ({
             id={id || null}
         >
             <div className="common-inner-container">
-                {title && <h3 className="common-content-title">{title}</h3>}
+                {title && <h2 className="common-content-title">{title}</h2>}
                 {info && <p className="common-content-info">{info}</p>}
                 {children}
             </div>

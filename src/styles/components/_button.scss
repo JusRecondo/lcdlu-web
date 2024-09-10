@@ -1,4 +1,4 @@
-.common-button {
+/* .common-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,14 +16,14 @@
     text-transform: capitalize;
     cursor: pointer;
     transition: background-color 0.25s;
-    background-color: $color-primary;
-    color: $color-primary-contrast-text;
+    background-color: $primary;
+    color: $primary-contrast-text;
 
     &:hover,
     &:focus,
     &:active {
-        background-color: $color-primary-lighten;
-        color: $color-primary-contrast-text;
+        background-color: $primary-lighten;
+        color: $primary-contrast-text;
     }
 
     &:disabled {
@@ -47,14 +47,14 @@
 
     &.outlined {
         background-color: transparent;
-        color: $color-primary;
-        border: 2px solid $color-primary;
+        color: $primary;
+        border: 2px solid $primary;
 
         &:hover,
         &:focus,
         &:active {
             background-color: $color-neutral-4;
-            color: $color-primary;
+            color: $primary;
         }
     }
 
@@ -65,31 +65,31 @@
         font-weight: 500;
         padding: 0;
         background-color: transparent;
-        color: $color-primary;
+        color: $primary;
 
         &:hover,
         &:focus,
         &:active {    
-            color: $color-primary-darken;        
+            color: $primary-darken;        
             font-weight: 600;
         }
     }
     
     &.back-button {
         background-color: transparent;
-        color: $color-primary;
+        color: $primary;
         text-decoration: none;
 
         &:hover,
         &:focus,
         &:active {    
-            color: $color-primary-darken;        
+            color: $primary-darken;        
             font-weight: 600;
         }
     }
     
-    @media #{$min-width-tablet} {
+    @media #{$tablet} {
         max-width: 240px;
         font-size: 18px;
     }
-}
+} */

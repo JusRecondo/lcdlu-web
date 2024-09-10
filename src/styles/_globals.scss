@@ -1,42 +1,38 @@
 :root {
-    font-family: $main-font, sans-serif;
+    font-family: $secondary-font;
     line-height: 1.5;
     font-weight: 400;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: $color-neutral-5;
+    background-color: $light;
+    color: $dark;
 }
 
 *,
 *::before,
 *::after {
     box-sizing: border-box;
-}
-
-* {
     margin: 0;
 }
 
 #root {
     width: 100%;
-}
-
-body {
-    display: flex;
-    min-height: 100vh;
-    color: $color-neutral-1;
+    min-height: calc(100vh - 60px);
+    position: relative;
 }
 
 .layout-main {
     max-width: $content-max-width;
     margin: 0 auto;
-    min-height: calc(100vh - 100px);
+    /* min-height: calc(100vh - 60px); */
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 { 
-    font-family: $secondary-font;
+    font-family: $main-font;
+    margin: 0;
 }
 
 a {
@@ -46,4 +42,8 @@ a {
 
 img {
     max-width: 100%;
+}
+
+footer {
+    height: 40px;
 }

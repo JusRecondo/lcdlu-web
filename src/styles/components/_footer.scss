@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: $secondary;
+    color: $light;
+
+    .navbar {
+        display: flex;
+        
+        @media #{$tablet} {
+            display: none;
+        }
+    }
+
+    small {
+        display: none;
+        @media #{$tablet} {
+            display: block;
+        }
+    }
+}
