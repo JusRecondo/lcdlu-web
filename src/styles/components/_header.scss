@@ -20,7 +20,7 @@
     .inner-container {
         display: flex;
         width: 100%;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         gap: 16px;
         max-width: $content-max-width;
@@ -28,7 +28,7 @@
 
         @media #{$tablet} {
             padding: 0 36px;
-
+            justify-content: space-between;
         }
     }
 }
