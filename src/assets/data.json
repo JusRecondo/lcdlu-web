@@ -1,15 +1,48 @@
 {
     "name": "La Cara de Últimos",
     "bio": "Es una banda independiente originaria de Haedo (Buenos Aires) y actualmente está conformada por Leandro Troiano en guitarras, producción artística programaciones y voz, Vanina Becares en bajo y voz, Mario Mendoza en batería y Jus Recondo en guitarras y sintetizadores.\nEl combo nacido en 2013 fusiona indie, pop, rock alternativo y letras que reflejan inquietudes generacionales. La banda presenta una búsqueda de texturas musicales, fusionando sonidos orgánicos, espaciales y enérgicos.\nLlevan editados 4 discos: Jupiter (2014), Un Puente Invisible (2017), Si Mañana (2019), y El Hijo Imaginario (2024); dos EP: Transideral (2013) y Sesión en casa (2018) y tres singles: En puntas de pie (2021), Un viento a favor (2021) y Remolinos (2022).\nEntre sus shows destacados se encuentran la presentación oficial de Un puente Invisible a sala llena en el Teatro Municipal de Morón, el recital en Groove teloneando a Massacre, ante más de mil personas, y a Usted Señalemelo en XLR, con entradas agotadas.\nEl Hijo Imaginario fue presentado oficialmente el 31 de Agosto de 2024 en el JJ Circuito Cultural.",
-    "links": [
-        {
-            "spotify": "https://open.spotify.com/intl-es/artist/5Rd4dCKgjuw7DYsMWfjrpy?si=UF5ZV7OASICSiCCBIpMk9Q",
-            "youtube": "https://www.youtube.com/@lacaradelosultimos",
-            "tidal": "https://tidal.com/browse/artist/8640142?u",
-            "instagram": "https://www.instagram.com/lacaradelosultimos",
-            "facebook": "https://www.facebook.com/Lacaradelosultimosweb/"
-        }
-    ],
+    "links": {
+        "socialAndPlatforms": [
+            {
+                "text": "Instagram",
+                "link": "https://www.instagram.com/lacaradelosultimos"
+            },
+            {
+                "text": "Facebook",
+                "link": "https://www.facebook.com/Lacaradelosultimosweb/"
+            },
+            {
+                "text": "YouTube",
+                "link": "https://www.youtube.com/@lacaradelosultimos"
+            },
+            {
+                "text": "Spotify",
+                "link": "https://open.spotify.com/intl-es/artist/5Rd4dCKgjuw7DYsMWfjrpy?si=UF5ZV7OASICSiCCBIpMk9Q"
+            },
+            {
+                "text": "Tidal",
+                "link": "https://tidal.com/browse/artist/8640142?u"
+            }
+        ],
+        "press": [
+            {
+                "text":"Filonews: 5 preguntas a La Cara de los Últimos por su nuevo álbum El hijo imaginario",
+                "link": "https://www.filo.news/noticia/2024/07/26/5-preguntas-a-la-cara-de-los-ultimos-por-su-nuevo-album-el-hijo-imaginario"
+            },
+            {
+                "text":"Indie Club: La Cara de los Últimos presenta su nueva sesión y anuncia show",
+                "link": "https://indieclubargentina.com/la-cara-de-los-ultimos-presenta-su-nueva-sesion-y-anuncia-show/"
+            },
+            {
+                "text":"Otras Yerbas Rock: La Cara de los Últimos entra en Remolinos y telonea a Massacre en Santa Fe",
+                "link": "https://www.otrasyerbasrock.com/2022/05/03/la-cara-de-los-ultimos-entra-en-remolinos-y-telonea-a-massacre-en-santa-fe/"
+            },
+            {
+                "text":"Indie Hoy: La Cara de los Últimos estrena su tercer disco: Si mañana",
+                "link": "https://indiehoy.com/noticias/la-cara-de-los-ultimos-estrena-su-tercer-disco-si-manana/"
+            }
+        ]
+    },
     "music": [
         {
             "name": "El Hijo Imginario",
