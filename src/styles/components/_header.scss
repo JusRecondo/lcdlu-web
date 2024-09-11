@@ -28,7 +28,10 @@
 
         @media #{$tablet} {
             padding: 0 36px;
-            justify-content: space-between;
+
+            h1 {
+                display: none;
+            }
         }
     }
 }
