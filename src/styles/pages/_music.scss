@@ -1,0 +1,20 @@
+#music {
+    background-color: $dark;
+    color: $light;
+
+    h3, p {
+        margin: 20px 0;
+    }
+
+    .slick-next, .slick-prev {
+        top: 0;
+    }
+
+    .slick-prev {
+        left: 0;
+    }
+
+    .slick-next {
+        right: 0;
+    }
+}

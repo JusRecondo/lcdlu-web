@@ -1,5 +1,5 @@
-import data from '../assets/data.json';
 import CommonContentSection from '../components/common/CommonContentSection';
+import data from '../assets/data.json';
 
 const Bio = () => {
     return (
