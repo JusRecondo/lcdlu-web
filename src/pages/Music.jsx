@@ -33,6 +33,14 @@ const Music = () => {
                             loading="lazy"
                         ></iframe>
                         <p>{item.summary}</p>
+                        {item.video && (
+                            <a
+                                href={item.video.link}
+                                target="_blank"
+                            >
+                                {item.video.text}
+                            </a>
+                        )}
                     </div>
                 ))}
             </Slider>

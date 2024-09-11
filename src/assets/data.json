@@ -17,7 +17,10 @@
             "year": "2024",
             "summary": "Es el cuarto disco de estudio de la banda. Compuesto casi todo en pandemia, recorre momentos de duelo, crecimiento y eclecticismo musical.\nSe presenta una búsqueda del espacio, de la simpleza en pocos elementos para crear canciones nuevas.La incorporación de percusión y el trabajo en las bases hacen de El Hijo Imaginario un disco sólido, el disco de una banda que lleva más de 10 años de camino.",
             "embed": "https://open.spotify.com/embed/album/5kI8nsIzJrDNZlUxB7ikuO?utm_source=generator",
-            "video": "https://youtu.be/xusmXTqJYc4?si=1lkMx2_PltCqt-UM"
+            "video": {
+                "link": "https://youtu.be/xusmXTqJYc4?si=1lkMx2_PltCqt-UM",
+                "text": "En febrero de 2024 se grabó una sesión en vivo tocando temas del disco que puede verse aquí."
+            }
         },
         {
             "name": "Remolinos",
@@ -25,7 +28,10 @@
             "year": "2022",
             "summary": "En esta canción, la banda explora ritmos desde donde expresarse, incursionando en instrumentaciones orgánicas y electrónicas que suman otros colores tímbricos. Siguiendo la línea que comenzaron a trazar con “En puntas de pie” y “Un viento a favor”. (Prisma Contenidos)",
             "embed": "https://open.spotify.com/embed/album/1GGvCV6N0gNgl9D0pQjqxT?utm_source=generator",
-            "video": "https://youtu.be/iArqlbxWTeE?si=KfMBFKUi-GYP_Qw0"
+            "video": {
+                "link": "https://youtu.be/iArqlbxWTeE?si=KfMBFKUi-GYP_Qw0",
+                "text": "Videoclip filmado en 2022"
+            }
         },
         {
             "name": "Un viento a favor",
@@ -33,7 +39,10 @@
             "year": "2021",
             "summary": "Después de publicar “En puntas de pie” en mayo, donde experimentaban con sonidos electrónicos, la agrupación argentina ahora presenta “Un viento a favor“: para su su segundo single del año, la banda de Haedo incursiona por primera vez en arreglos orquestales y ritmos tribales.\nLa canción fue producida por Leandro Troiano, quien además se encargó de la dirección del videoclip que acompaña el estreno.\nLa génesis del audiovisual se remonta a una idea de Vanina, bajista y vocalista de la banda, quien imaginó a una persona corriendo con desesperación, escapando de sus miedos, presiones y frustaciones.\nTroiano cuenta: “De ahí en más empecé a escribir un guion que incluyera a la banda tocando y escenas del actor donde representara distintos momentos de la canción. Decidimos hacerlo en blanco y negro para que ambas secuencias tengan un denominador común, además de que nos encanta”.(Indie Hoy)",
             "embed": "https://open.spotify.com/embed/album/1RPpgnp3QXrk3Duyc3pQ6K?utm_source=generator",
-            "video": "https://www.youtube.com/watch?v=nqo06-8lyYk"
+            "video": {
+                "link": "https://www.youtube.com/watch?v=nqo06-8lyYk",
+                "text": "Videoclip filmado en Mayo 2021"
+            }
         },
         {
             "name": "En puntas de pie",
@@ -41,7 +50,10 @@
             "year": "2021",
             "summary": "En Puntas de Pie” es una canción diferente dentro del universo de la banda. Una búsqueda sonora nueva donde predominan los sonidos electrónicos modernos y abstractos. La canción está sumergida en un groove afro/jungle que se fusiona muy bien con texturas de sintetizadores y el vuelo sensorial y onírico de la letra. La producción de Florencio Finkel aportó nuevos sonidos, ritmos y loops al estilo de canción pop al que nos tiene acostumbrados La Cara de los Últimos.(Moviendo Cultura)",
             "embed": "https://open.spotify.com/embed/album/7ABPcZnGM4ds11B3yzoGVJ?utm_source=generator",
-            "video": "https://youtu.be/bpqO8vWjPWo?si=VEWICMQ-SDsvsHkv"
+            "video": {
+                "link": "https://youtu.be/bpqO8vWjPWo?si=VEWICMQ-SDsvsHkv",
+                "text": "Videoclip filmado en 2021"
+            }
         },
         {
             "name": "Si Mañana",
@@ -49,7 +61,7 @@
             "year": "2019",
             "summary": "En este disco, la identidad musical que la banda fue afianzando durante sus años de recorrido, se enriquece al sumar elementos sonoros y ritmos aún no explorados en sus trabajos anteriores. Con la producción artística de Leandro Troiano (cantante, compositor, guitarrista y programador), el álbum nos ofrece siete bellas canciones de indie, pop y rock, donde confluyen guitarras psicodélicas, sintetizadores, programaciones y cuidadosos arreglos vocales para narrar historias que se sumergen en sentimientos profundos.",
             "embed": "https://open.spotify.com/embed/album/7uCKesEgGi0yQnCj7YQYMw?utm_source=generator",
-            "video": ""
+            "video": null
         },
         {
             "name": "Un Puente Invisible",
@@ -57,7 +69,7 @@
             "year": "2017",
             "summary": "Su segundo disco, grabado en MCL y Martillo Estudio con la producción artística de Gerardo Farez, reconocido músico y productor. En este registro, La Cara de los Últimos dejó plasmadas sus raíces e influencias, que recorren el brit pop, el rock alternativo, y el pop.\nSus videoclips, de dos de los temas de este disco, Brillar y Curar , reflejan la versatilidad, los matices y las texturas que la banda aporta a la escena emergente.",
             "embed": "https://open.spotify.com/embed/album/4TwgsuZQtaokTXFas2pc9y?utm_source=generator",
-            "video": "https://youtu.be/AxKkWaIF4BY?si=VE5sI7bz-DYFCE0r"
+            "video": null
         },
         {
             "name": "Jupiter",
@@ -65,7 +77,7 @@
             "year": "2014",
             "summary": "Su primer álbum, grabado y mezclado en Estudio Umbral y masterizado por Edu Pereyra en Romaphonic. “Fue un disco muy impulsivo que tiene algunos toques punk”",
             "embed": "https://open.spotify.com/embed/album/2cmypIh1E1fjjmwmnr7uNE?utm_source=generator",
-            "video": ""
+            "video": null
         }
     ],
     "videos": [
@@ -75,6 +87,13 @@
             "year": "2024",
             "summary": "Filmado en Febrero 2024 en CheLA, Parque Patricios, CABA.\nDirección: Marcos Pandolfi. Producción: Panamérica Estudio. Locación: Juan Marco Litrica. Dir. de fotografía: Marcos Pandolfi. Cámaras: Marcos Pandolfi, Juan Marco Litrica. PostProducción: Marcos Pandolfi. Foto fija y colaboración: Guille Bosch. Ingeniero de sonido: Jona Loredo. Agradecimientos: Mariana Panella.",
             "embed": "https://www.youtube.com/embed/xusmXTqJYc4?si=bjK5kZ5OsJTNm5XE>"
+        },
+        {
+            "name": "Remolinos",
+            "type": "Videoclip",
+            "year": "2022",
+            "summary": "Filmado en Marzo 2022. Cámaras, edición y montaje: India Audiovisuales (Ornella Giagnacovo). Dirección de fotografía: Marcos Pandolfi. Asistente de fotografía: Mariana Panella.Idea y Dirección: Leandro Troiano. Actrices: Aline Antonia Yevenes - Georgina Giagnacovo.Locación: Deofi Estudio (Morón, Buenos Aires)",
+            "embed": "https://youtu.be/iArqlbxWTeE?si=clgtWuO6186azN_N"
         },
         {
             "name": "Un viento a favor",
