@@ -6,6 +6,7 @@ Artist portfolio website.
 - React Router Dom
 - JavaScript
 - Sass
+- React Slick
 - ESlint
 - Prettier
 
