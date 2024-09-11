@@ -6,8 +6,7 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: $light;
-    color: $dark;
+    background-color: $dark;
 }
 
 *,
@@ -26,7 +25,6 @@
 .layout-main {
     max-width: $content-max-width;
     margin: 0 auto;
-    /* min-height: calc(100vh - 60px); */
     font-size: 16px;
 }
 
