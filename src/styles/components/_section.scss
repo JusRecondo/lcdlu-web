@@ -42,6 +42,10 @@
     .common-content-title {
         font-size: 28px;
         margin: 10px 0;
+
+        @media #{$desktop} {
+            font-size: 32px;
+        }
     }
 
     .common-content-info {
