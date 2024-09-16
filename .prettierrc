@@ -6,5 +6,5 @@
     "bracketSpacing": true,
     "singleAttributePerLine": true,
     "tabWidth": 4,
-    "insertFinalNewLine": false
+    "insertFinalNewLine": true
 }
