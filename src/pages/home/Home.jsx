@@ -1,9 +1,28 @@
 /* import BandName from './BandName'; */
+import { useEffect, useState } from 'react';
+import useWindowSize from '../../hooks/useWindowSize';
+import { TABLET_SIZE } from '../../lib/constants';
 import lacaradelosultimos from './lacaradelosultimos.jpg';
 import lacaradelosultimosnombre from './lacaradelosultimosnombre.png';
-import { FiArrowRight } from 'react-icons/fi';
+import { FiArrowRight, FiCalendar } from 'react-icons/fi';
 
 const Home = () => {
+    const [showAnnouncement, setShowAnnouncement] = useState(false);
+    const { width } = useWindowSize();
+    const isMobile = width < TABLET_SIZE;
+
+    useEffect(() => {
+        if (width >= TABLET_SIZE) {
+            setShowAnnouncement(true);
+        } else {
+            setShowAnnouncement(false);
+        }
+    }, [width]);
+
+    const handleShowAnnouncement = () => {
+        setShowAnnouncement((prevState) => !prevState);
+    };
+
     return (
         <section id="home">
             <img
@@ -18,19 +37,30 @@ const Home = () => {
                 loading="lazy"
                 className="homebg"
             />
-            <article className="announcement">
-                <h2>Próxima fecha</h2>
-                <p>21 de Septiembre en Haedo</p>
-                <p className="more-info">
-                    Mas info en <FiArrowRight />
-                    <a
-                        href="https://www.instagram.com/after.indie/"
-                        target="_blank"
-                    >
-                        @after.indie
-                    </a>
-                </p>
-            </article>
+            {isMobile && (
+                <button
+                    onClick={handleShowAnnouncement}
+                    aria-label="Mostrar información sobre próxima fecha"
+                    className="show-announcement-fab"
+                >
+                    <FiCalendar />
+                </button>
+            )}
+            {showAnnouncement && (
+                <article className="announcement">
+                    <h2>Próxima fecha</h2>
+                    <p>21 de Septiembre en Haedo</p>
+                    <p className="more-info">
+                        Mas info en <FiArrowRight />
+                        <a
+                            href="https://www.instagram.com/after.indie/"
+                            target="_blank"
+                        >
+                            @after.indie
+                        </a>
+                    </p>
+                </article>
+            )}
         </section>
     );
 };
