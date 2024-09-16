@@ -1,5 +1,5 @@
-import CommonContentSection from '../components/common/CommonContentSection';
-import data from '../assets/data.json';
+import CommonContentSection from '../../components/common/CommonContentSection';
+import data from '../../assets/data.json';
 import Slider from 'react-slick';
 
 const Music = () => {

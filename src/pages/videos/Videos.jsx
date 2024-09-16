@@ -1,4 +1,4 @@
-import CommonContentSection from '../components/common/CommonContentSection';
+import CommonContentSection from '../../components/common/CommonContentSection';
 
 const Videos = () => {
     return (
