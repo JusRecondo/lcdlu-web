@@ -1,13 +1,27 @@
 import { Link } from 'react-router-dom';
-import { FiInfo, FiMusic, FiFilm, FiLink } from 'react-icons/fi';
+import useWindowSize from '../hooks/useWindowSize';
+import { TABLET_SIZE } from '../lib/constants';
+import { FiInfo, FiMusic, FiFilm, FiLink, FiHome } from 'react-icons/fi';
 
 const Navbar = () => {
+    const { width } = useWindowSize();
+    const showHomeItem = width >= TABLET_SIZE;
     return (
         <ul className="navbar">
+            {showHomeItem && (
+                <li>
+                    <Link
+                        to="/"
+                        aria-label="Ir al inicio"
+                    >
+                        <FiHome />
+                    </Link>
+                </li>
+            )}
             <li>
                 <Link
                     to="/bio"
-                    aria-label="Bio"
+                    aria-label="Ir a la sección Bio"
                 >
                     <FiInfo />
                 </Link>
@@ -15,7 +29,7 @@ const Navbar = () => {
             <li>
                 <Link
                     to="/musica"
-                    aria-label="Música"
+                    aria-label="Ir a la sección Música"
                 >
                     <FiMusic />
                 </Link>
@@ -23,7 +37,7 @@ const Navbar = () => {
             <li>
                 <Link
                     to="/videos"
-                    aria-label="Videos"
+                    aria-label="Ir a la sección Videos"
                 >
                     <FiFilm />
                 </Link>
@@ -31,7 +45,7 @@ const Navbar = () => {
             <li>
                 <Link
                     to="/links"
-                    aria-label="Links"
+                    aria-label="Ir a la sección Links"
                 >
                     <FiLink />
                 </Link>

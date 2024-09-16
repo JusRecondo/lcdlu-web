@@ -8,7 +8,7 @@ const Home = () => {
         <section id="home">
             <img
                 src={lacaradelosultimosnombre}
-                role="presentation"
+                alt="La cara de los últimos"
                 loading="lazy"
                 className="homebgnombre"
             />
@@ -28,7 +28,7 @@ const Home = () => {
                         target="_blank"
                     >
                         @after.indie
-                    </a>{' '}
+                    </a>
                 </p>
             </article>
         </section>
