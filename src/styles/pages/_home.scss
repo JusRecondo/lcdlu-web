@@ -45,14 +45,16 @@
     .announcement {
         position: absolute;
         z-index: 0;
-        right: 10vw;
-        top: 11vh;
-        padding: 0.5rem;
-        border: 1px solid $light;
+        right: 90px;
+        bottom: 20px;
+        padding: 10px;
         border-radius: 12px;
+        background-color: $dark;
 
         @media #{$desktop} {
+            border: 1px solid $light;
             top: 200px; 
+            bottom: unset;
         }
 
         .more-info {

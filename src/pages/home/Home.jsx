@@ -1,7 +1,7 @@
 /* import BandName from './BandName'; */
 import { useEffect, useState } from 'react';
 import useWindowSize from '../../hooks/useWindowSize';
-import { TABLET_SIZE } from '../../lib/constants';
+import { DESKTOP_SIZE } from '../../lib/constants';
 import lacaradelosultimos from './lacaradelosultimos.jpg';
 import lacaradelosultimosnombre from './lacaradelosultimosnombre.png';
 import { FiArrowRight, FiCalendar } from 'react-icons/fi';
@@ -9,10 +9,10 @@ import { FiArrowRight, FiCalendar } from 'react-icons/fi';
 const Home = () => {
     const [showAnnouncement, setShowAnnouncement] = useState(false);
     const { width } = useWindowSize();
-    const isMobile = width < TABLET_SIZE;
+    const isMobile = width <= DESKTOP_SIZE;
 
     useEffect(() => {
-        if (width >= TABLET_SIZE) {
+        if (width >= DESKTOP_SIZE) {
             setShowAnnouncement(true);
         } else {
             setShowAnnouncement(false);
@@ -41,9 +41,9 @@ const Home = () => {
                 <button
                     onClick={handleShowAnnouncement}
                     aria-label="Mostrar información sobre próxima fecha"
-                    className="show-announcement-fab"
+                    className="fab-btn"
                 >
-                    <FiCalendar />
+                    <FiCalendar className="fab-icon" />
                 </button>
             )}
             {showAnnouncement && (

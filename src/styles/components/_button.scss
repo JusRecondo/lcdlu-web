@@ -1,4 +1,4 @@
-/* .common-button {
+.common-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,32 +17,19 @@
     cursor: pointer;
     transition: background-color 0.25s;
     background-color: $primary;
-    color: $primary-contrast-text;
+    color: $light;
 
     &:hover,
     &:focus,
     &:active {
-        background-color: $primary-lighten;
-        color: $primary-contrast-text;
+        background-color: $primary-darken;
     }
 
     &:disabled {
         pointer-events: none;
-        background-color: $color-neutral-3;
-        color: $color-neutral-1;
+        background-color: $light;
+        color: $dark;
         border: none;
-    }
-
-    &.secondary {
-        background-color: $color-secondary;
-        color: $color-secondary-contrast-text;
-
-        &:hover,
-        &:focus,
-        &:active {
-            background-color: $color-secondary-lighten;
-            color: $color-secondary-contrast-text;
-        }
     }
 
     &.outlined {
@@ -53,8 +40,8 @@
         &:hover,
         &:focus,
         &:active {
-            background-color: $color-neutral-4;
-            color: $primary;
+            background-color: $primary;
+            color: $light;
         }
     }
 
@@ -69,8 +56,7 @@
 
         &:hover,
         &:focus,
-        &:active {    
-            color: $primary-darken;        
+        &:active {       
             font-weight: 600;
         }
     }
@@ -92,4 +78,27 @@
         max-width: 240px;
         font-size: 18px;
     }
-} */
+}
+
+.fab-btn {
+    background-color: $primary;
+    color: $light;
+    border: none;
+    outline: none;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $primary-darken;
+    }
+
+    .fab-icon {
+        font-size: 28px;
+    }
+}

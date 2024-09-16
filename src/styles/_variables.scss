@@ -14,6 +14,7 @@ $desktop-lg:"(min-width: 1600px)";
 $dark: #050605; 
 $light: #dce8db; 
 $primary: #8d2327;
+$primary-darken: darken($primary, 10);
 $secondary: #433b24;
 $tertiary: #7d7562;
 
