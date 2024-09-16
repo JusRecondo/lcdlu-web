@@ -1,11 +1,20 @@
-#bio {
-    
+#bio { 
     .bio-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        place-items: center;
         gap: 16px;
+
         .bio-img {
-            margin-top: 10px;
+            margin-top: 20px;
+        } 
+
+        @media #{$desktop} {
+            grid-template-columns: 1fr 1fr;
+            place-items: start;
+
+            .bio-img {
+                margin-top: 0;
+            } 
         }
     }
 }

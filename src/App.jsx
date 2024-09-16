@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/home/Home';
 import Bio from './pages/bio/Bio';
-import Links from './pages/Links';
+import Links from './pages/links/Links';
 import Music from './pages/Music';
 import Videos from './pages/Videos';
 import NotFound404 from './pages/NotFound404';

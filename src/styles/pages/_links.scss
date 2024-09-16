@@ -6,4 +6,23 @@
     a {
         font-weight: 500;
     }
+
+    .links-container {
+        display: grid;
+        place-items: center;
+        gap: 16px;
+
+        .links-img {
+            margin-top: 20px;
+        }
+        
+        @media #{$desktop} {
+            grid-template-columns: 2fr 1fr;
+            place-items: start;
+
+            .links-img {
+                margin-top: 0;
+            }
+        }
+    }
 }
