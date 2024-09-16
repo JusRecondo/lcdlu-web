@@ -9,31 +9,4 @@
     a {
         text-decoration: underline;
     }
-
-    .slick-next, .slick-prev {
-        top: 0;
-    }
-
-    .slick-prev {
-        left: 0;
-    }
-
-    .slick-next {
-        right: 0;
-    }
-
-    .slider-item-inner-container {
-        @media #{$desktop} {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-
-            div:nth-child(1) {
-                flex: 1;
-            }
-            div:nth-child(2) {
-                flex: 1;
-            }
-        }
-    }
 }
