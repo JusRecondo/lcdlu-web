@@ -53,10 +53,10 @@ const Home = () => {
                     <p className="more-info">
                         Mas info en <FiArrowRight />
                         <a
-                            href="https://www.instagram.com/after.indie/"
+                            href="https://www.instagram.com/lacaradelosultimos"
                             target="_blank"
                         >
-                            @after.indie
+                            @lacaradelosultimos
                         </a>
                     </p>
                 </article>
