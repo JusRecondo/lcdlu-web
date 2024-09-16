@@ -6,7 +6,7 @@ import Home from './pages/home/Home';
 import Bio from './pages/bio/Bio';
 import Links from './pages/links/Links';
 import Music from './pages/music/Music';
-import Videos from './pages/music/Videos';
+import Videos from './pages/videos/Videos';
 import NotFound404 from './pages/NotFound404';
 
 function App() {
