@@ -1,6 +1,6 @@
 import CommonContentSection from '../../components/common/CommonContentSection';
 import data from '../../assets/data.json';
-import lacaradelosultimos from './lacaradelosultimos.jpg';
+import lacaradelosultimos from './lacaradelosultimos.webp';
 
 const Bio = () => {
     return (

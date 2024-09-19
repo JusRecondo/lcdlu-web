@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import useWindowSize from '../../hooks/useWindowSize';
 import { DESKTOP_SIZE } from '../../lib/constants';
-import lacaradelosultimos from './lacaradelosultimos.jpg';
+import lacaradelosultimos from './lacaradelosultimos.webp';
 import lacaradelosultimosnombre from './lacaradelosultimosnombre.png';
 import { FiArrowRight, FiCalendar } from 'react-icons/fi';
 
