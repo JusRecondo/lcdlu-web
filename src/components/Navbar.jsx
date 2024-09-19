@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import useWindowSize from '../hooks/useWindowSize';
 import { TABLET_SIZE } from '../lib/constants';
 import { FiInfo, FiMusic, FiFilm, FiLink, FiHome } from 'react-icons/fi';
@@ -10,45 +10,50 @@ const Navbar = () => {
         <ul className="navbar">
             {showHomeItem && (
                 <li>
-                    <Link
+                    <NavLink
                         to="/"
                         aria-label="Ir al inicio"
+                        className={({ isActive }) => (isActive ? 'active' : '')}
                     >
                         <FiHome />
-                    </Link>
+                    </NavLink>
                 </li>
             )}
             <li>
-                <Link
+                <NavLink
                     to="/bio"
                     aria-label="Ir a la sección Bio"
+                    className={({ isActive }) => (isActive ? 'active' : '')}
                 >
                     <FiInfo />
-                </Link>
+                </NavLink>
             </li>
             <li>
-                <Link
+                <NavLink
                     to="/musica"
                     aria-label="Ir a la sección Música"
+                    className={({ isActive }) => (isActive ? 'active' : '')}
                 >
                     <FiMusic />
-                </Link>
+                </NavLink>
             </li>
             <li>
-                <Link
+                <NavLink
                     to="/videos"
                     aria-label="Ir a la sección Videos"
+                    className={({ isActive }) => (isActive ? 'active' : '')}
                 >
                     <FiFilm />
-                </Link>
+                </NavLink>
             </li>
             <li>
-                <Link
+                <NavLink
                     to="/links"
                     aria-label="Ir a la sección Links"
+                    className={({ isActive }) => (isActive ? 'active' : '')}
                 >
                     <FiLink />
-                </Link>
+                </NavLink>
             </li>
         </ul>
     );
