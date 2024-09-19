@@ -11,9 +11,12 @@ const Links = () => {
             <div className="links-container">
                 <div className="text">
                     <h3>En redes y Plataformas</h3>
-                    <ul>
+                    <ul className="rrss">
                         {data.links?.socialAndPlatforms.map((item, i) => (
-                            <li key={i}>
+                            <li
+                                key={i}
+                                className="rrss-item"
+                            >
                                 <a
                                     href={item.link}
                                     target="_blank"
@@ -24,9 +27,12 @@ const Links = () => {
                         ))}
                     </ul>
                     <h3>En los medios</h3>
-                    <ul>
+                    <ul className="press">
                         {data.links?.press.map((item, i) => (
-                            <li key={i}>
+                            <li
+                                key={i}
+                                className="press-item"
+                            >
                                 <a
                                     href={item.link}
                                     target="_blank"

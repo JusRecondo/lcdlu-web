@@ -4,7 +4,7 @@
     }
 
     a {
-        font-weight: 500;
+        width: 100%;
     }
 
     .links-container {
@@ -24,5 +24,34 @@
                 margin-top: 0;
             }
         }
+
+        .text {
+            background-color: $tertiary;
+            color: $light;
+            padding: 1rem;
+            
+            ul {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    gap: 4px;
+                    cursor: pointer;
+
+                    a,
+                    &.rrss-item,
+                    &.press-item {
+                        &:hover,
+                        &:focus {
+                            background-color: $primary;
+                        }
+                    }
+
+                }
+            }
+        }
+
     }
 }
