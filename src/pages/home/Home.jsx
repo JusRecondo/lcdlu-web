@@ -5,6 +5,7 @@ import { DESKTOP_SIZE } from '../../lib/constants';
 import lacaradelosultimos from './lacaradelosultimos.webp';
 import lacaradelosultimosnombre from './lacaradelosultimosnombre.png';
 import { FiArrowRight, FiCalendar } from 'react-icons/fi';
+import data from '../../assets/data.json';
 
 const Home = () => {
     const [showAnnouncement, setShowAnnouncement] = useState(false);
@@ -48,8 +49,8 @@ const Home = () => {
             )}
             {showAnnouncement && (
                 <article className="announcement">
-                    <h2>Próxima fecha</h2>
-                    <p>21 de Septiembre en Haedo</p>
+                    <h2>{data.announcement?.title}</h2>
+                    <p>{data.announcement?.text}</p>
                     <p className="more-info">
                         Mas info en <FiArrowRight />
                         <a
