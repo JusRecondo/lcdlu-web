@@ -10,7 +10,7 @@ const Links = () => {
         >
             <div className="links-container">
                 <div className="text">
-                    <h3>Redes y Plataformas</h3>
+                    <h3>En redes y Plataformas</h3>
                     <ul>
                         {data.links?.socialAndPlatforms.map((item, i) => (
                             <li key={i}>
@@ -23,7 +23,7 @@ const Links = () => {
                             </li>
                         ))}
                     </ul>
-                    <h3>Prensa</h3>
+                    <h3>En los medios</h3>
                     <ul>
                         {data.links?.press.map((item, i) => (
                             <li key={i}>
