@@ -22,10 +22,6 @@
             width: unset;
             object-fit: contain; 
         }
-
-        @media #{$desktop} {
-            left: calc(100vw - 960px); 
-        }
     }
 
     .homebgnombre {
@@ -35,6 +31,7 @@
         z-index: -2;
         height: 100%;
         width: 50%;
+        object-fit: scale-down;
         display: none;
 
         @media #{$desktop} {
