@@ -11,5 +11,10 @@
 
     .active {
         color: $primary-lighten;
+
+
+        @media #{$tablet} {
+            color: $dark;
+        }
     }
 }

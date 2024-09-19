@@ -5,6 +5,10 @@
 
     a {
         width: 100%;
+        
+        &:focus {
+            outline: none;
+        }
     }
 
     .links-container {
