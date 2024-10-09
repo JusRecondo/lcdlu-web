@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import useWindowSize from '../hooks/useWindowSize';
 import { TABLET_SIZE } from '../lib/constants';
 import { FiInfo, FiMusic, FiFilm, FiLink, FiHome } from 'react-icons/fi';
